@@ -286,3 +286,78 @@ main {
   text-align: center;
   margin-top: 10px;
 }
+
+#guestbook {
+  padding: 80px 20px;
+  background: #ffeaf2;
+}
+
+#guestbook h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ec4899;
+}
+
+.guestbook-intro {
+  max-width: 700px;
+  margin: 0 auto 25px;
+  text-align: center;
+  color: #6b4552;
+}
+
+.guestbook {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 40px rgba(236, 72, 153, 0.2);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #4a2a35;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #f9c3d9;
+  border-radius: 12px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #ec4899;
+  box-shadow: 0 0 10px rgba(236, 72, 153, 0.25);
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  background: #ec4899;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #db2777;
+  transform: translateY(-2px);
+}
