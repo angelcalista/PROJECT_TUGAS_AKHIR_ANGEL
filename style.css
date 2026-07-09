@@ -361,3 +361,35 @@ button:hover {
   background: #db2777;
   transform: translateY(-2px);
 }
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff5f8;
+  border-top: 1px solid #ffd9e4;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #ec4899;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #f472b6;
+}
+
+#home,
+#about,
+#profile,
+#gallery,
+#video,
+#guestbook {
+  animation: fadeUp 0.8s ease;
+}
+
