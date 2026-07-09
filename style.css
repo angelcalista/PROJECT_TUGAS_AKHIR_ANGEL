@@ -150,3 +150,51 @@ main {
   text-align: justify;
   text-indent: 2em;
 }
+
+#profile {
+  padding: 100px 20px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+.profile-photo img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 5px solid #f472b6;
+  box-shadow: 0 0 25px rgba(244, 114, 182, 0.4);
+  flex-shrink: 0;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+#profile h3 {
+  color: #f472b6;
+  margin: 20px 0;
+}
+
+.profile-info p {
+  margin-bottom: 12px;
+}
+
+.profile-info strong {
+  color: #ec4899;
+}
+
+.profile-quote {
+  margin-top: 20px;
+  font-style: italic;
+  color: #db2777;
+  border-left: 3px solid #f472b6;
+  padding-left: 15px;
+}
