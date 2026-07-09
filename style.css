@@ -14,3 +14,24 @@ body {
   color: #6b4552;
   line-height: 1.7;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: #4a2a35;
+  line-height: 1.2;
+}
+
+section:not(#home, #guestbook) {
+  padding: 80px 0;
+  border-bottom: 1px solid #ffd9e4;
+}
+
+section h2 {
+  color: #ec4899;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
