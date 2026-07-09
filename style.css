@@ -24,6 +24,18 @@ h4 {
   line-height: 1.2;
 }
 
+section:not(#home, #guestbook) {
+  padding: 80px 0;
+  border-bottom: 1px solid #ffd9e4;
+}
+
+section h2 {
+  color: #ec4899;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -37,15 +49,7 @@ header {
   backdrop-filter: blur(10px);
 }
 
-
-section:not(#home, #guestbook) {
-  padding: 80px 0;
-  border-bottom: 1px solid #ffd9e4;
-}
-
-section h2 {
+header h1 {
+  font-size: 1.5rem;
   color: #ec4899;
-  font-size: 2.2rem;
-  margin-bottom: 40px;
-  text-align: center;
 }
