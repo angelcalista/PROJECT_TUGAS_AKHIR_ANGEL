@@ -486,3 +486,52 @@ footer a:hover {
     padding: 20px;
   }
 }
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  nav ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 14px;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  nav ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  nav ul a {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  #home h2 {
+    font-size: 1.6rem;
+  }
+
+  .home-img img,
+  .profile-photo img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .foto-card img {
+    height: 220px;
+  }
+
+  .guestbook {
+    padding: 15px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
