@@ -24,6 +24,20 @@ h4 {
   line-height: 1.2;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(255, 245, 248, 0.95);
+  border-bottom: 2px solid #ffd9e4;
+  backdrop-filter: blur(10px);
+}
+
+
 section:not(#home, #guestbook) {
   padding: 80px 0;
   border-bottom: 1px solid #ffd9e4;
